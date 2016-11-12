@@ -13,5 +13,15 @@
 <body>
   <noscript>Hello, bro.</noscript>
   <div id="mount"></div>
+  <script>
+    fetch('https://raw.githubusercontent.com/Cap32/cap32.win/master/README.md')
+      .then(function (resp) {
+        return resp.text();
+      })
+      .then(function (text) {
+        document.getElementById('mount').innerHTML = text;
+      })
+    ;
+  </script>
 </body>
 </html>
