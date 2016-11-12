@@ -1,4 +1,4 @@
-Cap32's blog.
+Cap32's site.
 
 ---
 

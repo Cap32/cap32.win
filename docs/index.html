@@ -14,12 +14,14 @@
   <noscript>Hello, bro.</noscript>
   <div id="mount"></div>
   <script>
-    fetch('https://raw.githubusercontent.com/Cap32/cap32.win/master/README.md')
+    fetch('https://api.github.com/repos/Cap32/cap32.win/contents/articles/about.md')
       .then(function (resp) {
-        return resp.text();
+        return resp.json();
       })
-      .then(function (text) {
-        document.getElementById('mount').innerHTML = text;
+      .then(function (json) {
+        const content = json.content;
+        const html = decodeURIComponent(escape(atob(content)));
+        document.getElementById('mount').innerHTML = html;
       })
     ;
   </script>
