@@ -8,7 +8,7 @@
 
 自我有意識以來，我第一個接觸的編程語言是 ActionScript。雖然理論上我第一個接觸的編程語言應該是 C 語言，讀大一的時候好像上過這門課。但那時候我完全不知道編程是什麽，編程有什麽卵用。直到後來，我在大二的時候，接觸了 Adobe Flash，才開始了解到 ActionScript，開始接觸了編程。
 
-然而，正如 Atwood 所說，“一切能用 JavaScript 寫的程序，最終都會用 JavaScript 來寫。” 我就用 JavaScript 來寫程序了。
+然而，正如 Atwood 所說，「一切能用 JavaScript 寫的程序，最終都會用 JavaScript 來寫。」我就用 JavaScript 來寫程序了。
 
 ## 關于設計
 
